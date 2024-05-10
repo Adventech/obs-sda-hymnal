@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import DockSearch from '../components/Dock/DockSearch.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory('/obs-sda-hymnal/'),
   routes: [
     {
       path: '/',
