@@ -27,7 +27,7 @@ const router = createRouter({
       ]
     },
     {
-      path: '/browser',
+      path: '/obs-sda-hymnal/browser',
       name: 'browser',
       component: () => import('../views/Browser.vue')
     }
