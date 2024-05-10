@@ -1,8 +1,8 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import DockSearch from '../components/Dock/DockSearch.vue'
 
 const router = createRouter({
-  history: createWebHistory('/obs-sda-hymnal/'),
+  history: createWebHashHistory(),
   routes: [
     {
       path: '/',
@@ -27,7 +27,7 @@ const router = createRouter({
       ]
     },
     {
-      path: '/obs-sda-hymnal/browser',
+      path: '/browser',
       name: 'browser',
       component: () => import('../views/Browser.vue')
     }
