@@ -42,7 +42,7 @@ export default {
         this.prev()
       } else if (event.key === 'ArrowRight') {
         this.next()
-      } else if (event.key === 'Space') {
+      } else if (event.key === ' ') {
         this.showHide()
       }
     },
