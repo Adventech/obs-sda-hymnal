@@ -1,5 +1,5 @@
 <template>
-  <div v-if="show && lowerThirds.length && lowerThirds[currentIterator] && lowerThirds[currentIterator].length" class="transition ease-in-out delay-150 duration-300 text-white text-4xl h-screen flex flex-col justify-end items-center">
+  <div v-if="show && lowerThirds.length && lowerThirds[currentIterator] && lowerThirds[currentIterator].length" class="transition ease-in-out delay-150 duration-300 text-white text-3xl h-screen flex flex-col justify-end items-center">
     <div class="w-full flex items-center flex-col p-10">
         <div v-for="(line, i) in lowerThirds[currentIterator]" class="transition-opacity">
           <transition name="fade">
