@@ -127,7 +127,7 @@ export default {
 <style>
 .lower-third {
   @apply font-bold antialiased;
-  text-shadow: 8px 8px 4px rgba(0, 0, 0, 0.9)
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.9)
 }
 
 .fade-enter-active {
