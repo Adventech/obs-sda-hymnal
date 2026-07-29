@@ -40,8 +40,10 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Install dependencies
-        run: npm install
+      - name: Install locked dependencies
+        run: npm ci --ignore-scripts
+      - name: Audit locked dependency graph
+        run: npm audit --audit-level=high
       - name: Build
         run: npm run build
         env:
