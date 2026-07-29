@@ -1,5 +1,4 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import DockSearch from '../components/Dock/DockSearch.vue'
 
 const router = createRouter({
   history: createWebHashHistory(),
